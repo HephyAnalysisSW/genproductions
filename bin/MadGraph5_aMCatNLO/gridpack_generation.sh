@@ -40,6 +40,12 @@ make_tarball () {
     fi
     XZ_OPT="$XZ_OPT" tar -cJpsf ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz mgbasedir process runcmsgrid.sh gridpack_generation*.log InputCards $EXTRA_TAR_ARGS
 
+    cp $CARDSDIR/${name}_reweight_card.pkl ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.pkl
+
+    if [ -e $CARDSDIR/${name}_customizecards.dat ]; then
+        cp $CARDSDIR/${name}_customizecards.dat ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.customizecard
+    fi
+
     echo "Gridpack created successfully at ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz"
     echo "End of job"
 
@@ -111,7 +117,10 @@ make_gridpack () {
       wget --no-check-certificate ${MGSOURCE}
       tar xzf ${MG}
       rm "$MG"
-    
+
+      # agrohsje
+      cp -rp ${PRODHOME}/addons/models/* ${MGBASEDIRORIG}/models/. 
+
       #############################################
       #Apply any necessary patches on top of official release
       #############################################
@@ -525,7 +534,14 @@ make_gridpack () {
       tar -xzf $WORKDIR/pilotrun_gridpack.tar.gz
       echo "cleaning temporary gridpack"
       rm $WORKDIR/pilotrun_gridpack.tar.gz
-      
+
+      # added to make extended run
+
+      RWSEED=657343
+      RWNEVT=80000
+      ./run.sh $RWNEVT $RWSEED
+      mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
+
       # precompile reweighting if necessary
       if [ -e $CARDSDIR/${name}_reweight_card.dat ]; then
           echo "preparing reweighting step"
