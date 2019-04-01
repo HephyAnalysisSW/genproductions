@@ -40,7 +40,9 @@ make_tarball () {
     fi
     XZ_OPT="$XZ_OPT" tar -cJpsf ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.tar.xz mgbasedir process runcmsgrid.sh gridpack_generation*.log InputCards $EXTRA_TAR_ARGS
 
-    cp $CARDSDIR/${name}_reweight_card.pkl ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.pkl
+    if [ -e $CARDSDIR/${name}_reweight_card.pkl ]; then
+	cp $CARDSDIR/${name}_reweight_card.pkl ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.pkl
+    fi
 
     if [ -e $CARDSDIR/${name}_customizecards.dat ]; then
         cp $CARDSDIR/${name}_customizecards.dat ${PRODHOME}/${name}_${scram_arch}_${cmssw_version}_tarball.customizecard
@@ -538,7 +540,7 @@ make_gridpack () {
       # added to make extended run
 
       RWSEED=657343
-      RWNEVT=80000
+      RWNEVT=30000
       ./run.sh $RWNEVT $RWSEED
       mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
 
