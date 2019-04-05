@@ -1,0 +1,98 @@
+# reweight card file created with https://github.com/schoef/gridpacks on 2019-04-03 17:47:38
+# Command line arguments: ./make_reweight_card.py --overwrite --filename ttZ_EFT_reweight_card.dat --couplings 2 ctZ 2 ctZI 2 cpt 2 cpQM 2 --referencepoint ctZ 4 ctZI 4
+# Polynomial order: 2
+# Reference Point: ctZ 4 ctZI 4
+change rwgt_dir rwgt
+
+launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpt_0p_cpQM_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpt 0.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpt_0p_cpQM_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpt 0.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpt_0p_cpQM_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpt 0.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpt_2p_cpQM_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpt 2.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpt_0p_cpQM_2p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpt 0.000000
+set cpQM 2.000000
+
+launch --rwgt_name=ctZ_4p_ctZI_0p_cpt_0p_cpQM_0p
+set ctZ 4.000000
+set ctZI 0.000000
+set cpt 0.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_2p_cpt_0p_cpQM_0p
+set ctZ 2.000000
+set ctZI 2.000000
+set cpt 0.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpt_2p_cpQM_0p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpt 2.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_2p_ctZI_0p_cpt_0p_cpQM_2p
+set ctZ 2.000000
+set ctZI 0.000000
+set cpt 0.000000
+set cpQM 2.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_4p_cpt_0p_cpQM_0p
+set ctZ 0.000000
+set ctZI 4.000000
+set cpt 0.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpt_2p_cpQM_0p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpt 2.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_2p_cpt_0p_cpQM_2p
+set ctZ 0.000000
+set ctZI 2.000000
+set cpt 0.000000
+set cpQM 2.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpt_4p_cpQM_0p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpt 4.000000
+set cpQM 0.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpt_2p_cpQM_2p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpt 2.000000
+set cpQM 2.000000
+
+launch --rwgt_name=ctZ_0p_ctZI_0p_cpt_0p_cpQM_4p
+set ctZ 0.000000
+set ctZI 0.000000
+set cpt 0.000000
+set cpQM 4.000000
+

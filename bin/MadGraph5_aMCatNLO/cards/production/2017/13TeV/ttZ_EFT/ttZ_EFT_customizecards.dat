@@ -1,0 +1,10 @@
+# customize card file created with https://github.com/TTXPheno/gridpacks on 2019-04-03 17:50:37
+# Command line arguments: ./make_customizecard.py --filename ttZ_EFT_customizecards.dat --referencepoint ctZ 4 ctZI 4
+# Reference Point: ctZ 4 ctZI 4
+set param_card mass 6 172.5
+set param_card mass 25 125.0
+set param_card yukawa 6 172.5
+set param_card decay 6 auto
+set param_card ctZ 4.000000
+set param_card ctZI 4.000000
+
