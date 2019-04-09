@@ -121,7 +121,7 @@ make_gridpack () {
       rm "$MG"
 
       # agrohsje
-      cp -rp ${PRODHOME}/addons/models/* ${MGBASEDIRORIG}/models/. 
+      cp -rp ${PRODHOME}/models/* ${MGBASEDIRORIG}/models/
 
       #############################################
       #Apply any necessary patches on top of official release
@@ -539,10 +539,10 @@ make_gridpack () {
 
       # added to make extended run
 
-      RWSEED=657343
-      RWNEVT=30000
-      ./run.sh $RWNEVT $RWSEED
-      mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
+#      RWSEED=657343
+#      RWNEVT=30000
+#      ./run.sh $RWNEVT $RWSEED
+#      mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
 
       # precompile reweighting if necessary
       if [ -e $CARDSDIR/${name}_reweight_card.dat ]; then
@@ -639,7 +639,7 @@ if [ -n "$6" ]
   then
     cmssw_version=${6}
   else
-    cmssw_version=CMSSW_9_3_8 #CMSSW_7_1_30
+    cmssw_version=CMSSW_9_3_0 #CMSSW_9_3_8 #CMSSW_7_1_30
 fi
  
 # jobstep can be 'ALL','CODEGEN', 'INTEGRATE', 'MADSPIN'
