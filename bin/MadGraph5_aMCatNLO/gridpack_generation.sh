@@ -121,7 +121,7 @@ make_gridpack () {
       rm "$MG"
 
       # agrohsje
-      cp -rp ${PRODHOME}/models/* ${MGBASEDIRORIG}/models/
+      cp -rp ${PRODHOME}/addons/models/* ${MGBASEDIRORIG}/models/
 
       #############################################
       #Apply any necessary patches on top of official release
