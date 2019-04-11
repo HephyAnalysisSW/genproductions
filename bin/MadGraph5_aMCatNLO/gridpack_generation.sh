@@ -121,6 +121,7 @@ make_gridpack () {
       rm "$MG"
 
       # agrohsje
+      # careful: if you change the model path here, you have to change it in submit_cmsconnect_gridpack_generation(_singlejob).sh as well (model_directory)
       cp -rp ${PRODHOME}/addons/models/* ${MGBASEDIRORIG}/models/
 
       #############################################

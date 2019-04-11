@@ -143,9 +143,10 @@ gridpack_jdl="gridpack_${card_name}.jdl"
 # Those will be input files for the job
 input_files="input_${card_name}.tar.gz"
 patches_directory="./patches"
+model_directory="./addons/models"
 
 if [ -e "$input_files" ]; then rm "$input_files"; fi
-tar -zcf "$input_files" "$card_dir" "$patches_directory" "runcmsgrid_LO.sh" "runcmsgrid_NLO.sh" "cleangridmore.sh" "/usr/bin/unzip"
+tar -zcf "$input_files" "$card_dir" "$model_directory" "$patches_directory" "runcmsgrid_LO.sh" "runcmsgrid_NLO.sh" "cleangridmore.sh" "/usr/bin/unzip"
 
 ## Create a submit file for a single job
 # create_gridpack_exe arguments are:

@@ -195,10 +195,11 @@ codegen_jdl="codegen_${card_name}.jdl"
 # Those will be input files for the condor CODEGEN step.
 input_files="input_${card_name}.tar.gz"
 patches_directory="./patches"
+model_directory="./addons/models"
 utilities_dir="./Utilities"
 plugin_directory="./PLUGIN"
 if [ -e "$input_files" ]; then rm "$input_files"; fi
-tar -zchf "$input_files" "$card_dir" "$patches_directory" "$utilities_dir" "${plugin_directory}"
+tar -zchf "$input_files" "$card_dir" "$model_directory" "$patches_directory" "$utilities_dir" "${plugin_directory}"
 
 ## Create a submit file for a single job
 # create_codegen_exe arguments are:
