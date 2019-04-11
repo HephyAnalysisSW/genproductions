@@ -1,2 +1,8 @@
 *.pyc
 __init__.py
+*.log
+*.debug
+*.tar.*
+*.pkl
+codegen*
+condor_log
