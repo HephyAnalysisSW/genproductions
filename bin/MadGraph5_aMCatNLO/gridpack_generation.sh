@@ -540,10 +540,10 @@ make_gridpack () {
 
       # added to make extended run
 
-#      RWSEED=657343
-#      RWNEVT=30000
-#      ./run.sh $RWNEVT $RWSEED
-#      mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
+      RWSEED=657343
+      RWNEVT=30000
+      ./run.sh $RWNEVT $RWSEED
+      mv $WORKDIR/process/madevent/Events/GridRun_${RWSEED}/"events.lhe.gz" $WORKDIR/"unweighted_events.lhe.gz"
 
       # precompile reweighting if necessary
       if [ -e $CARDSDIR/${name}_reweight_card.dat ]; then
