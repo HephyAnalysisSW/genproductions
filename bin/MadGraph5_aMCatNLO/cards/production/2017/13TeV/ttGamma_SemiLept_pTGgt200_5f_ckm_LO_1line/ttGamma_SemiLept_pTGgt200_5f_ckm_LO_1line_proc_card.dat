@@ -38,7 +38,7 @@ define uc = u c
 define uc~ = u~ c~
 define ds = d s
 define ds~ = d~ s~
-generate p p > t t~ > l+ vl b ds uc~ b~ a  QCD=2 QED=5
-add process p p > t t~ > uc ds~ b l- vl~ b~ a  QCD=2 QED=5
+generate p p > t t~ > l+ vl b ds uc~ b~ a
+add process p p > t t~ > uc ds~ b l- vl~ b~ a
 
 output ttGamma_SemiLept_pTGgt200_5f_ckm_LO_1line

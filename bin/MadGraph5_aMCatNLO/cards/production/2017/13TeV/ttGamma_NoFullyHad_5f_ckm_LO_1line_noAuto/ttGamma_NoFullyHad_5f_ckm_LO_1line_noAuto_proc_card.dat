@@ -39,8 +39,8 @@ define uc~ = u~ c~
 define ds = d s
 define ds~ = d~ s~
 
-generate p p > t t~ > l+ vl  b ds uc~ b~ a  QCD=2 QED=5
-add process p p > t t~ > uc ds~ b l- vl~ b~ a  QCD=2 QED=5
+generate p p > t t~ > l+ vl  b ds uc~ b~ a
+add process p p > t t~ > uc ds~ b l- vl~ b~ a
 add process p p > t t~ > l+ vl l- vl~ b  b~ a
 
 output ttGamma_NoFullyHad_5f_ckm_LO_1line_noAuto
