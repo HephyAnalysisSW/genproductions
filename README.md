@@ -40,9 +40,15 @@ python make_reweight_card.py --overwrite --filename addons/cards/CARDNAME/CARDNA
 ```
 
 ### Submit gridpack generation
-
+The main job will run locally and submit sub-jobs to condor. Thus, submit the job detached from the current session
+(example given in submit_cmsconnect.sh).
 ```
 nohup ./submit_cmsconnect_gridpack_generation.sh CARDNAME addons/cards/CARDNAME/ > CARDNAME.debug 2>&1 &
+```
+
+Monitor the job using
+```
+condor_q
 ```
 
 Details here:
