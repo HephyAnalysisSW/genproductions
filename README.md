@@ -32,11 +32,11 @@ Add a directory to addons/cards/CARDNAME containing a run card (CARDNAME_run_car
 
 Create a customize card with the EFT reference point using make_customizecard.py (example given in make_customizecard.sh). Use --append if a customize card with e.g. mass settings already exists.
 ```
-python make_customizecard.py --filename addons/cards/CARDNAME/CARDNAME_customizecards.dat --append --reference ctZ 4 ctZI 4
+python make_customizecard.py --filename addons/cards/CARDNAME/CARDNAME_customizecards.dat --append --referencepoint ctZ 4 ctZI 4
 ```
-Create a reweight card with the EFT parameters and the same reference point using make_reweight_card.py (example given in make_reweight_card.sh). 
+Create a reweight card with the EFT parameters (of order ORDER) and the same reference point using make_reweight_card.py (example given in make_reweight_card.sh). 
 ```
-python make_reweight_card.py --overwrite --filename addons/cards/CARDNAME/CARDNAME_reweight_card.dat --reference ctZ 4 ctZI 4 --couplings cpt 1 cpQM 1 ctZ 1 ctZI 1
+python make_reweight_card.py --overwrite --filename addons/cards/CARDNAME/CARDNAME_reweight_card.dat --referencepoint ctZ 4 ctZI 4 --couplings ORDER cpt 1 cpQM 1 ctZ 1 ctZI 1
 ```
 
 ### Submit gridpack generation
