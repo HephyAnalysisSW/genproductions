@@ -7,12 +7,30 @@ import sys
 import itertools
 
 argParser = argparse.ArgumentParser(description = "Argument parser")
-argParser.add_argument('--couplings',      action='store',         default=[],                     nargs='*',  type = str, help="Give a list of the non-zero couplings with values, e.g. NAME1 VALUE1 NAME2 VALUE2")
+argParser.add_argument('--couplings',      action='store',         default=[],                     nargs='*',  type = str, help="Give a list of the order and the non-zero couplings with values, e.g. ORDER NAME1 VALUE1 NAME2 VALUE2")
 argParser.add_argument('--referencepoint', action='store',         default=[],                     nargs='*',  type = str, help="Give a list of the non-zero WC with values as a reference point, e.g. NAME1 VALUE1 NAME2 VALUE2")
 argParser.add_argument('--filename',       action='store',         default="./reweight_card.dat",  nargs=1,    type = str, help="Output filename")
 argParser.add_argument('--overwrite',      action='store_true',                                                            help="Overwrite exisiting x-sec calculation and gridpack")
 args = argParser.parse_args()
 
+
+# self programmed itertools.combinations_with_replacement, since for cms_connect, only python 2.6 is available (no combinations_with_replacement included)
+def combinations_with_replacement(iterable, r):
+    # combinations_with_replacement('ABC', 2) --> AA AB AC BB BC CC
+    pool = tuple(iterable)
+    n = len(pool)
+    if not n and r:
+        return
+    indices = [0] * r
+    yield tuple(pool[i] for i in indices)
+    while True:
+        for i in reversed(range(r)):
+            if indices[i] != n - 1:
+                break
+        else:
+            return
+        indices[i:] = [indices[i] + 1] * (r - i)
+        yield tuple(pool[i] for i in indices)
 
 # recursively make a for loop over all couplings
 def recurse( c_list ):
@@ -68,7 +86,8 @@ def isA( a, type):
 
 def ListToDict(referencepointlist):
     if len(referencepointlist) != 0:
-        return {referencepointlist[i]: referencepointlist[i+1] for i in range(0, len(referencepointlist), 2)}
+        return dict( (referencepointlist[i],referencepointlist[i+1]) for i in range(0, len(referencepointlist), 2) )
+#         return { referencepointlist[i]:referencepointlist[i+1] for i in range(0, len(referencepointlist), 2) }
     else:
         return {}
 
@@ -95,7 +114,8 @@ if len(args.couplings)>0 and isA( args.couplings[0], int ):
     stepsize  = map( float, args.couplings[1:][1::2] )
     assert len(vars)==len(stepsize), "Number of variables and number of stepsizes not the same. Got %i and %i, respectively." %( len(vars), len(stepsize))
     for order_ in range(0, order+1):
-        for comb in itertools.combinations_with_replacement(range(len(vars)), order_):
+        for comb in combinations_with_replacement(range(len(vars)), order_):
+#        for comb in itertools.combinations_with_replacement(range(len(vars)), order_):
             param_point = tuple()
             for i_var, var in enumerate(vars):
                 count = comb.count(i_var)

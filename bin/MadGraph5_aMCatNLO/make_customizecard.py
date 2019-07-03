@@ -9,7 +9,7 @@ import itertools
 # generate the customizecard
 argParser = argparse.ArgumentParser(description = "Argument parser")
 argParser.add_argument('--referencepoint',   action='store',         default=[],                      nargs='*',  type = str, help="Give a list of the non-zero WC with values as a reference point, e.g. NAME1 VALUE1 NAME2 VALUE2 ...")
-argParser.add_argument('--filename',         action='store',         default="./customize_card.dat",  nargs=1,    type = str, help="Output filename")
+argParser.add_argument('--filename',         action='store',         default="./customizecards.dat",  nargs=1,    type = str, help="Output filename")
 argParser.add_argument('--append',           action='store_true',                                                             help="Append to exisiting x-sec calculation and gridpack")
 args = argParser.parse_args()
 
