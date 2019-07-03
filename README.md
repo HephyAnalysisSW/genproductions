@@ -46,10 +46,12 @@ The main job will run locally and submit sub-jobs to condor. Thus, submit the jo
 nohup ./submit_cmsconnect_gridpack_generation.sh CARDNAME addons/cards/CARDNAME/ > CARDNAME.debug 2>&1 &
 ```
 
-Monitor the job using
+Monitor the condor jobs using
 ```
 condor_q
 ```
+
+The job will be finished once the gridpack (ending with .tar.gz) appears in the current directory (not the input_CARDNAME.tar.gz file)
 
 Details here:
 https://twiki.cern.ch/twiki/bin/view/CMS/QuickGuideMadGraph5aMCatNLO
