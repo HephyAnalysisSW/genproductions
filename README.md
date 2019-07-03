@@ -41,13 +41,10 @@ python make_reweight_card.py --overwrite --filename addons/cards/CARDNAME/CARDNA
 
 ### Submit gridpack generation
 
-Submit the gridpack generation to condor:
 ```
-./submit_condor_gridpack_generation.sh CARDNAME addons/cards/CARDNAME/ 
+nohup ./submit_cmsconnect_gridpack_generation.sh CARDNAME addons/cards/CARDNAME/ > CARDNAME.debug 2>&1 &
 ```
 
-Monitor with 
-```
-condor_q
-```
+Details here:
+https://twiki.cern.ch/twiki/bin/view/CMS/QuickGuideMadGraph5aMCatNLO
 
