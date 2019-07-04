@@ -550,6 +550,8 @@ make_gridpack () {
           echo "preparing reweighting step"
           prepare_reweight $isnlo $WORKDIR $scram_arch $CARDSDIR/${name}_reweight_card.dat 
       fi
+
+      cd $WORKDIR/process/madevent
     
       #prepare madspin grids if necessary
       if [ -e $CARDSDIR/${name}_madspin_card.dat ]; then
