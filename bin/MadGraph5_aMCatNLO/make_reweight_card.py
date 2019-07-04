@@ -91,11 +91,6 @@ def ListToDict(referencepointlist):
     else:
         return {}
 
-
-
-
-
-
 print "Coupling arguments: %r" % args.couplings
 
 # create dict from referencepoint input
