@@ -2,3 +2,9 @@
 set param_card mass 6 172.5
 set param_card mass 25 125.0
 set param_card yukawa 6 172.5
+set param_card ctZ 4.000000
+set param_card ctZI 4.000000
+set param_card ctW 4.000000
+set param_card ctWI 4.000000
+set param_card ctG 4.000000
+set param_card ctGI 4.000000
