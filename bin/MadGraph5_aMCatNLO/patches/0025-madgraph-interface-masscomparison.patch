@@ -1,11 +1,14 @@
---- madgraph/interface/reweight_interface.py	2019-07-04 22:35:00.000000001 +0200
-+++ madgraph/interface/reweight_interface.py.patched	2019-07-04 22:35:50.000000001 +0200
-@@ -926,7 +926,7 @@
+--- a/madgraph/interface/reweight_interface.py	2019-07-05 02:58:49.762688730 -0500
++++ b/madgraph/interface/reweight_interface.py	2019-07-05 03:32:25.687404920 -0500
+@@ -935,9 +935,9 @@
          else:
              jac =1
  
 -        if jac != 1:
-+        if abs(jac-1)<10**-4:
++        if abs(jac-1)<=10**-4:
              if self.output_type == 'default':
-                 logger.critical('mass reweighting requires dedicated lhe output!. Please include "change output 2.0" in your reweight_card')
+-                logger.critical('mass reweighting requires dedicated lhe output!. Please include "change output 2.0" in your reweight_card')
++                logger.critical('mass reweighting requires dedicated lhe output!. jac %f Please include "change output 2.0" in your reweight_card' % jac)
                  raise Exception
+             mode = self.run_card['dynamical_scale_choice']
+             if mode == -1:

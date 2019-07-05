@@ -1,5 +1,6 @@
 cardname="tWGamma_rwgt"
-nohup ./submit_cmsconnect_gridpack_generation.sh ${cardname} addons/cards/TopDiBoson/${cardname}/ > ${cardname}.debug 2>&1 &
+#nohup ./submit_cmsconnect_gridpack_generation.sh ${cardname} addons/cards/TopDiBoson/${cardname}/ > ${cardname}.debug 2>&1 &
+nohup ./tmp.sh ${cardname} addons/cards/TopDiBoson/${cardname}/ > ${cardname}.debug 2>&1 &
 
 #cardname="tWZ_rwgt"
 #nohup ./submit_cmsconnect_gridpack_generation.sh ${cardname} addons/cards/TopDiBoson/${cardname}/ > ${cardname}.debug 2>&1 &
