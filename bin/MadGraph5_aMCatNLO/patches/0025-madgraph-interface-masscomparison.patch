@@ -5,7 +5,7 @@
              jac =1
  
 -        if jac != 1:
-+        if abs(jac-1)<=10**-4:
++        if abs(jac-1)>=10**-4:
              if self.output_type == 'default':
 -                logger.critical('mass reweighting requires dedicated lhe output!. Please include "change output 2.0" in your reweight_card')
 +                logger.critical('mass reweighting requires dedicated lhe output!. jac %f Please include "change output 2.0" in your reweight_card' % jac)
