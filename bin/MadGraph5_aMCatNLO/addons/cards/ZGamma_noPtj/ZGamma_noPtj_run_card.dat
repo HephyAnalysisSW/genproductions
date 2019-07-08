@@ -25,7 +25,7 @@
 # (relative) accuracy on the Xsec.                                     *
 # These values are ignored for fixed order runs                        *
 #***********************************************************************
-  1500 = nevents ! Number of unweighted events requested 
+ 10000 = nevents ! Number of unweighted events requested 
  0.001 = req_acc ! Required accuracy (-1=auto determined from nevents)
     20 = nevt_job! Max number of events per job in event generation. 
                  !  (-1= no split).
@@ -126,22 +126,33 @@
 # Cuts on the charged leptons (e+, e-, mu+, mu-, tau+ and tau-)        *
 # (more specific gen cuts can be specified in SubProcesses/cuts.f)     *
 #***********************************************************************
-   15  = ptl     ! Min lepton transverse momentum
+   0  = ptl     ! Min lepton transverse momentum
   -1  = etal    ! Max lepton abs(pseudo-rap) (a value .lt.0 means no cut)
    0  = drll    ! Min distance between opposite sign lepton pairs
    0  = drll_sf ! Min distance between opp. sign same-flavor lepton pairs
    0  = mll     ! Min inv. mass of all opposite sign lepton pairs
-#  30  = mll_sf  ! Min inv. mass of all opp. sign same-flavor lepton pairs
+#  10  = mll_sf  ! Min inv. mass of all opp. sign same-flavor lepton pairs
 #***********************************************************************
 # Photon-isolation cuts, according to hep-ph/9801442                   *
 # When ptgmin=0, all the other parameters are ignored                  *
 #***********************************************************************
-  15  = ptgmin    ! Min photon transverse momentum
+  10  = ptgmin    ! Min photon transverse momentum
  2.6  = etagamma  ! Max photon abs(pseudo-rap)
 0.05  = R0gamma   ! Radius of isolation code
  1.0  = xn        ! n parameter of eq.(3.4) in hep-ph/9801442
  1.0  = epsgamma  ! epsilon_gamma parameter of eq.(3.4) in hep-ph/9801442
  .true.  = isoEM  ! isolate photons from EM energy (photons and leptons)
+#*********************************************************************
+# Control the pt's of leptons sorted by pt                           *
+#*********************************************************************
+15.0   = ptl1min ! minimum pt for the leading lepton in pt
+ 0.0   = ptl2min ! minimum pt for the second lepton in pt
+ 0.0   = ptl3min ! minimum pt for the third lepton in pt
+ 0.0   = ptl4min ! minimum pt for the fourth lepton in pt
+ -1.0  = ptl1max ! maximum pt for the leading lepton in pt 
+ -1.0  = ptl2max ! maximum pt for the second lepton in pt
+ -1.0  = ptl3max ! maximum pt for the third lepton in pt
+-1.0 = ptl4max ! maximum pt for the fourth lepton in pt
 #***********************************************************************
 # Maximal PDG code for quark to be considered a jet when applying cuts.*
 # At least all massless quarks of the model should be included here.   *
