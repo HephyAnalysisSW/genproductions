@@ -1,4 +1,4 @@
-# reweight card file created with https://github.com/schoef/gridpacks on 2019-07-04 03:35:33
+# reweight card file created with https://github.com/schoef/gridpacks on 2019-07-04 04:51:43
 # Command line arguments: make_reweight_card.py --filename addons/cards/TopDiBoson/tWZ_rwgt/tWZ_rwgt_reweight_card.dat --overwrite --reference ctZ 4 ctZI 4 --couplings 4 cpt 1 cpQM 1 ctZ 1 ctZI 1
 # Polynomial order: 4
 # Reference Point: ctZ 4 ctZI 4

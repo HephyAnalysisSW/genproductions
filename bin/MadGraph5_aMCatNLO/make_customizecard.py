@@ -18,15 +18,15 @@ def make_customize_card(filename, referencepoint, append=False):
     import datetime
     if not filename.endswith('.dat'):
         raise ValueError( "filename does not end with .dat" )
-    if not append:
-        with open(filename, "w") as out_file:
-            out_file.write("# customize card file created with https://github.com/TTXPheno/gridpacks on %s\n" % datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-            out_file.write("# Command line arguments: "+" ".join(sys.argv)+'\n')
-            out_file.write("# Reference Point: "+" ".join(referencepoint)+'\n')
-            out_file.write("set param_card mass 6 172.5\n")
-	    out_file.write("set param_card mass 25 125.0\n")
-            out_file.write("set param_card yukawa 6 172.5\n")
-            out_file.write("set param_card decay 6 auto\n")
+    #if not append:
+    #    with open(filename, "w") as out_file:
+    #        out_file.write("# customize card file created with https://github.com/TTXPheno/gridpacks on %s\n" % datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+    #        out_file.write("# Command line arguments: "+" ".join(sys.argv)+'\n')
+    #        out_file.write("# Reference Point: "+" ".join(referencepoint)+'\n')
+    #        out_file.write("set param_card mass 6 172.5\n")
+    #        out_file.write("set param_card mass 25 125.0\n")
+    #        out_file.write("set param_card yukawa 6 172.5\n")
+    #        out_file.write("set param_card decay 6 auto\n")
     with open(filename, "a") as out_file:
         for i in range(0, len(referencepoint), 2):
             out_file.write("set param_card %s %8.6f\n" %( referencepoint[i], float(referencepoint[i+1])))
