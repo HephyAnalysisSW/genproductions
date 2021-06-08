@@ -25,7 +25,7 @@ set param_card DIM62F 14 0.000000e+00
 set param_card DIM62F 15 0.000000e+00
 set param_card DIM62F 16 0.000000e+00
 set param_card DIM62F 19 0.000000e+00
-set param_card DIM62F 22 1.000000e+00
+set param_card DIM62F 22 0.000000e+00
 set param_card DIM62F 23 0.000000e+00
 set param_card DIM62F 24 0.000000e+00
 set param_card DIM64F 1 0.000000e+00
