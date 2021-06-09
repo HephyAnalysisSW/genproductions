@@ -263,5 +263,3 @@ $DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf 
 #          reweighting into account!                                 *
 #*********************************************************************
    F  = use_syst      ! Enable systematics studies
-#
-#**************************************
