@@ -27,7 +27,7 @@ NPshifts = CouplingOrder(name = 'NPshifts',
                          hierarchy = 99)
 
 NPprop = CouplingOrder(name = 'NPprop',
-                       expansion_order = 99, #FIXME
+                       expansion_order = 0,
                        hierarchy = 99)
 
 NPcpv = CouplingOrder(name = 'NPcpv',
