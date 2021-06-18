@@ -1,18 +1,18 @@
-set param_card SMEFT   55 0.5 # cuGRe11 
-set param_card SMEFT   56 0.5 # cuGRe22 
-set param_card SMEFT   57 0.5 # cuGRe33 
-set param_card SMEFT   64 0.5 # cuWRe11 
-set param_card SMEFT   65 0.5 # cuWRe22 
-set param_card SMEFT   66 0.5 # cuWRe33 
-set param_card SMEFT   73 0.5 # cuBRe11 
-set param_card SMEFT   74 0.5 # cuBRe22 
-set param_card SMEFT   75 0.5 # cuBRe33 
-set param_card SMEFT   82 0.5 # cdGRe11 
-set param_card SMEFT   83 0.5 # cdGRe22 
-set param_card SMEFT   84 0.5 # cdGRe33 
-set param_card SMEFT   91 0.5 # cdWRe11 
-set param_card SMEFT   92 0.5 # cdWRe22 
-set param_card SMEFT   93 0.5 # cdWRe33 
-set param_card SMEFT  100 0.5 # cdBRe11 
-set param_card SMEFT  101 0.5 # cdBRe22 
-set param_card SMEFT  102 0.5 # cdBRe33 
+set param_card SMEFT   55 0.5  
+set param_card SMEFT   56 0.5  
+set param_card SMEFT   57 0.5  
+set param_card SMEFT   64 0.5  
+set param_card SMEFT   65 0.5  
+set param_card SMEFT   66 0.5  
+set param_card SMEFT   73 0.5  
+set param_card SMEFT   74 0.5  
+set param_card SMEFT   75 0.5  
+set param_card SMEFT   82 0.5  
+set param_card SMEFT   83 0.5  
+set param_card SMEFT   84 0.5  
+set param_card SMEFT   91 0.5  
+set param_card SMEFT   92 0.5  
+set param_card SMEFT   93 0.5  
+set param_card SMEFT  100 0.5  
+set param_card SMEFT  101 0.5  
+set param_card SMEFT  102 0.5  
