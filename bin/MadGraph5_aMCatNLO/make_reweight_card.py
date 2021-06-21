@@ -9,6 +9,7 @@ import itertools
 argParser = argparse.ArgumentParser(description = "Argument parser")
 argParser.add_argument('--couplings',      action='store',         default=[],                     nargs='*',  type = str, help="Give a list of the order and the non-zero couplings with values, e.g. ORDER NAME1 VALUE1 NAME2 VALUE2")
 argParser.add_argument('--referencepoint', action='store',         default=[],                     nargs='*',  type = str, help="Give a list of the non-zero WC with values as a reference point, e.g. NAME1 VALUE1 NAME2 VALUE2")
+argParser.add_argument('--auto_width_particles', action='store',   default=[],                     nargs='*',  type = int, help="Give a list of particles for which the width should be recomputed, e.g. pdgId1, ...")
 argParser.add_argument('--filename',       action='store',         default="./reweight_card.dat",  nargs=1,    type = str, help="Output filename")
 argParser.add_argument('--overwrite',      action='store_true',                                                            help="Overwrite exisiting x-sec calculation and gridpack")
 args = argParser.parse_args()
@@ -62,6 +63,9 @@ def make_reweight_card( filename, reweights, referencepoint, order_dict ):
             out_file.write( "launch --rwgt_name=%s\n"%name )
             for i in range(len(reweight)/2):
                 out_file.write("set %s %8.6f\n"%( reweight[2*i], reweight[2*i+1]))
+            for pdgId in args.auto_width_particles:
+                out_file.write("set width %i auto\n"%( pdgId ))
+            
             out_file.write('\n')
     print "Written %i weights to file:"%len(reweights), filename 
 
