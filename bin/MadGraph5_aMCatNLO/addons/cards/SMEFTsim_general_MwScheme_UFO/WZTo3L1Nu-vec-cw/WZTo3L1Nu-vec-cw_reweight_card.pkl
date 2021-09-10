@@ -4,11 +4,11 @@ p1
 (dp2
 S'cWtil'
 p3
-S'0.5'
+S'1.0'
 p4
 sS'cW'
 p5
-S'0.5'
+S'1.'
 p6
 ssS'rw_dict'
 p7
