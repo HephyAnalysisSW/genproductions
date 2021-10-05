@@ -1,11 +1,11 @@
-# reweight card file created with https://github.com/schoef/gridpacks on 2021-09-24 16:00:03
-# Command line arguments: ../../../../make_reweight_card.py --couplings 2 cHq1Re11 0.5 cHq1Re22 0.5 cHq1Re33 0.5 cHq3Re11 0.5 cHq3Re22 0.5 cHq3Re33 0.5 cHuRe11 0.5 cHuRe22 0.5 cHuRe33 0.5 cHdRe11 0.5 cHdRe22 0.5 cHdRe33 0.5 cHudRe11 0.5 cHudRe22 0.5 cHudRe33 0.5 --filename ttZ01j-decay-vec_reweight_card.dat --overwrite
+# reweight card file created with https://github.com/schoef/gridpacks on 2021-10-05 11:10:36
+# Command line arguments: ../../../../make_reweight_card.py --couplings 2 cHq1Re11 0.5 cHq1Re22 0.5 cHq1Re33 0.5 cHq3Re11 0.5 cHq3Re22 0.5 cHq3Re33 0.5 cHuRe11 0.5 cHuRe22 0.5 cHuRe33 0.5 cHdRe11 0.5 cHdRe22 0.5 cHdRe33 0.5 cHudRe11 0.5 cHudRe22 0.5 cHudRe33 0.5 cW 0.5 --filename ttZ01j-decay-vec_reweight_card.dat --overwrite
 # Polynomial order: 2
 change rwgt_dir rwgt
 
 launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -21,8 +21,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -38,8 +39,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -55,8 +57,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -72,8 +75,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -89,8 +93,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -106,8 +111,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -123,8 +129,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -140,8 +147,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -157,8 +165,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -174,8 +183,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -191,8 +201,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -208,8 +219,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -225,8 +237,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -242,8 +255,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -259,8 +273,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -276,8 +291,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_1p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_1p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 1.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -293,8 +327,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -310,8 +345,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -327,8 +363,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -344,8 +381,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -361,8 +399,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -378,8 +417,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -395,8 +435,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -412,8 +453,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -429,8 +471,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -446,8 +489,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -463,8 +507,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -480,8 +525,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -497,8 +543,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -514,8 +561,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.500000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -531,8 +579,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_1p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p5_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.500000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_1p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 1.000000
 set cHq1Re33 0.000000
@@ -548,8 +615,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.500000
@@ -565,8 +633,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -582,8 +651,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -599,8 +669,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -616,8 +687,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -633,8 +705,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -650,8 +723,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -667,8 +741,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -684,8 +759,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -701,8 +777,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -718,8 +795,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -735,8 +813,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -752,8 +831,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.500000
 set cHq1Re33 0.000000
@@ -769,8 +849,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_1p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p5_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.500000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_1p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 1.000000
@@ -786,8 +885,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -803,8 +903,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -820,8 +921,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -837,8 +939,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -854,8 +957,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -871,8 +975,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -888,8 +993,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -905,8 +1011,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -922,8 +1029,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -939,8 +1047,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -956,8 +1065,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -973,8 +1083,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.500000
@@ -990,8 +1101,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_1p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p5_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.500000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_1p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1007,8 +1137,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1024,8 +1155,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1041,8 +1173,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1058,8 +1191,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1075,8 +1209,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1092,8 +1227,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1109,8 +1245,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1126,8 +1263,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1143,8 +1281,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1160,8 +1299,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1177,8 +1317,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1194,8 +1335,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_1p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p5_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.500000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_1p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1211,8 +1371,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1228,8 +1389,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1245,8 +1407,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1262,8 +1425,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1279,8 +1443,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1296,8 +1461,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1313,8 +1479,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1330,8 +1497,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1347,8 +1515,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1364,8 +1533,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1381,8 +1551,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_1p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p5_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.500000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_1p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1398,8 +1587,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1415,8 +1605,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1432,8 +1623,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1449,8 +1641,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1466,8 +1659,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1483,8 +1677,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1500,8 +1695,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1517,8 +1713,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1534,8 +1731,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1551,8 +1749,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_1p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p5_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.500000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_1p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1568,8 +1785,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1585,8 +1803,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1602,8 +1821,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1619,8 +1839,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1636,8 +1857,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1653,8 +1875,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1670,8 +1893,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1687,8 +1911,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1704,8 +1929,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_1p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p5_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.500000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_1p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1721,8 +1965,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1738,8 +1983,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1755,8 +2001,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1772,8 +2019,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1789,8 +2037,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1806,8 +2055,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1823,8 +2073,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1840,8 +2091,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_1p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p5_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.500000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_1p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1857,8 +2127,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1874,8 +2145,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1891,8 +2163,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1908,8 +2181,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1925,8 +2199,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1942,8 +2217,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1959,8 +2235,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_1p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p5_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.500000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_1p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1976,8 +2271,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -1993,8 +2289,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2010,8 +2307,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2027,8 +2325,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2044,8 +2343,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2061,8 +2361,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_1p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p5_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.500000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_1p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2078,8 +2397,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2095,8 +2415,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2112,8 +2433,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2129,8 +2451,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2146,8 +2469,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_1p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p5_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.500000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_1p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2163,8 +2505,9 @@ set cHdRe33 1.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2180,8 +2523,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2197,8 +2541,9 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2214,8 +2559,27 @@ set cHdRe33 0.500000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_1p_cHudRe22_0p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p5_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.500000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_1p_cHudRe22_0p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2231,8 +2595,9 @@ set cHdRe33 0.000000
 set cHudRe11 1.000000
 set cHudRe22 0.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p5_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p5_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2248,8 +2613,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.500000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2265,8 +2631,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.500000
 set cHudRe22 0.000000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_1p_cHudRe33_0p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p5_cHudRe22_0p_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.500000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_1p_cHudRe33_0p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2282,8 +2667,9 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 1.000000
 set cHudRe33 0.000000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p5
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p5_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2299,8 +2685,27 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.500000
 set cHudRe33 0.500000
+set cW 0.000000
 
-launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_1p
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p5_cHudRe33_0p_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.500000
+set cHudRe33 0.000000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_1p_cW_0p
 set cHq1Re11 0.000000
 set cHq1Re22 0.000000
 set cHq1Re33 0.000000
@@ -2316,4 +2721,41 @@ set cHdRe33 0.000000
 set cHudRe11 0.000000
 set cHudRe22 0.000000
 set cHudRe33 1.000000
+set cW 0.000000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p5_cW_0p5
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.500000
+set cW 0.500000
+
+launch --rwgt_name=cHq1Re11_0p_cHq1Re22_0p_cHq1Re33_0p_cHq3Re11_0p_cHq3Re22_0p_cHq3Re33_0p_cHuRe11_0p_cHuRe22_0p_cHuRe33_0p_cHdRe11_0p_cHdRe22_0p_cHdRe33_0p_cHudRe11_0p_cHudRe22_0p_cHudRe33_0p_cW_1p
+set cHq1Re11 0.000000
+set cHq1Re22 0.000000
+set cHq1Re33 0.000000
+set cHq3Re11 0.000000
+set cHq3Re22 0.000000
+set cHq3Re33 0.000000
+set cHuRe11 0.000000
+set cHuRe22 0.000000
+set cHuRe33 0.000000
+set cHdRe11 0.000000
+set cHdRe22 0.000000
+set cHdRe33 0.000000
+set cHudRe11 0.000000
+set cHudRe22 0.000000
+set cHudRe33 0.000000
+set cW 1.000000
 
