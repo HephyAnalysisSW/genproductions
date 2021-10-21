@@ -27,8 +27,7 @@ set group_subprocesses Auto
 set ignore_six_quark_processes False
 set loop_optimized_output True
 set complex_mass_scheme False
-#import model sm-no_b_mass
-import model SMEFTatNLO-LO
+import model SMEFTsim_general_MwScheme_UFO-SMEFT_massless_private_vec
 define p = g u c d s u~ c~ d~ s~
 define j = g u c d s u~ c~ d~ s~
 define l+ = e+ mu+
@@ -40,6 +39,7 @@ define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
 define w = w+ w-
-generate p p > z z  NP=2, z > l+ l-  @ 0
-add process p p > z z j  NP=2, z > l+ l- @ 1
-output ZZ
+generate p p > w z j j QCD=0 NPprop=0 SMHLOOP=0 NP=1, w+ > l+ vl, w- > l- vl~, z > l+ l- @ 0
+#generate p p > w z, w+ > l+ vl, w- > l- vl~, z > l+ l-  @ 0
+#add process p p > w z j, w+ > l+ vl, w- > l- vl~, z > l+ l- @ 1
+output WZJJTo3L1Nu 
