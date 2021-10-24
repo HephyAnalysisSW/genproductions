@@ -64,7 +64,7 @@ def make_reweight_card( filename, reweights, referencepoint, order_dict ):
             for i in range(len(reweight)/2):
                 out_file.write("set %s %8.6f\n"%( reweight[2*i], reweight[2*i+1]))
             for pdgId in args.auto_width_particles:
-                out_file.write("set width %i auto\n"%( pdgId ))
+                out_file.write("set DECAY %i Auto\n"%( pdgId ))
             
             out_file.write('\n')
     print "Written %i weights to file:"%len(reweights), filename 

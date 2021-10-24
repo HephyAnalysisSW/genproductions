@@ -8,6 +8,6 @@ define vl~ = ve~ vm~ vt~
 define lp = l+ l-
 define vp = vl vl~
 
-generate    p p > t t~ > w+ b w- b~ NPprop=0 SMHLOOP=0 NP=0
+generate    p p > t t~ NPprop=0 SMHLOOP=0 NP=0 
 
-output tt-decay
+output tt-SM
