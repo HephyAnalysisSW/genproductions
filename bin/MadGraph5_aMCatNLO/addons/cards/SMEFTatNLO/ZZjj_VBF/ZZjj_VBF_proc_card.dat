@@ -39,5 +39,5 @@ define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
 define vl = ve vm vt
 define vl~ = ve~ vm~ vt~
-generate p p > z z j j NP=2, z > l+ l- @ 1
+generate    p p > z z j j NP=2 QED=4 QCD=0, z > l+ l- @ 1
 output ZZjj_VBF
