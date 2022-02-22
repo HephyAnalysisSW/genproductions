@@ -13,27 +13,21 @@
 #************************************************************
 #directory for gridpack mode
 set ms_dir ./madspingrid
-#Some options (uncomment to apply)
-#
-# set seed 1
- set Nevents_for_max_weigth 500 # number of events for the estimate of the max. weight
-# set BW_cut 15                 # cut on how far the particle can be off-shell
-# set spinmode onshell          # Use one of the madspin special mode
- set max_weight_ps_point 400  # number of PS to estimate the maximum for each event
 
-# specify the decay for the final state particles
-define had = u c d s u~ c~ d~ s~
+#Some options (uncomment to apply)
+set Nevents_for_max_weigth 250 # number of events for the estimate of the max. weight
+set max_weight_ps_point 400  # number of PS to estimate the maximum for each event
+
+#Definitions
 define l+ = e+ mu+ ta+
 define l- = e- mu- ta-
-define vl = ve vm vt
-define vl~ = ve~ vm~ vt~
 
-decay t > w+ b, w+ > had had
-decay t~ > w- b~, w- > had had
+#Specify the decay for the final state particles
+decay t > w+ b, w+ > l+ vl
+decay t~ > w- b~, w- > l- vl~
 decay w+ > l+ vl
 decay w- > l- vl~
 decay z > l+ l-
-#decay h > b b~
 
 # running the actual code
 launch
