@@ -1,3 +1,4 @@
+import object_library 
 
 import particles
 import couplings
@@ -53,8 +54,8 @@ else:
 gauge = [0, 1]
 
 __author__   = "C. Degrande, G. Durieux, F. Maltoni, K. Mimasu, E. Vryonidou, C. Zhang"
-__date__     = "2020-09-04"
-__version__  = "1.0.0"
+__date__     = "2021-05-13"
+__version__  = "1.0.3"
 __arxiv__      = "[arXiv:2008.11743]"
 __url__      = "https://feynrules.irmp.ucl.ac.be/wiki/SMEFTatNLO"
 
