@@ -1,6 +1,7 @@
 # reweight card file created with https://github.com/schoef/gridpacks on 2022-02-17 11:11:19
 # Command line arguments: make_reweight_card.py --couplings 2 cpq3i 1 cpqMi 1 cpW 1 --filename WH_LeptonicW_NLO_reweight_card.dat
 # Polynomial order: 2
+change mode NLO
 change rwgt_dir rwgt
 
 launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.

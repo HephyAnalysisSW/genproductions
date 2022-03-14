@@ -483,9 +483,8 @@ make_gridpack () {
         cp $CARDSDIR/${name}_madspin_card.dat ./Cards/madspin_card.dat
       fi
       
-      echo "launch -n pilotrun" >> makegrid.dat # [RS] https://bugs.launchpad.net/mg5amcnlo/+bug/1827424/comments/15
-      #echo "shower=OFF" > makegrid.dat
-      #echo "reweight=OFF" >> makegrid.dat
+      echo "shower=OFF" > makegrid.dat
+      echo "reweight=OFF" >> makegrid.dat
       echo "done" >> makegrid.dat
       if [ -e $CARDSDIR/${name}_customizecards.dat ]; then
               cat $CARDSDIR/${name}_customizecards.dat | sed '/^$/d;/^#.*$/d' >> makegrid.dat
@@ -493,16 +492,7 @@ make_gridpack () {
       fi
       echo "done" >> makegrid.dat
 
-      # [RS] Found this: https://bugs.launchpad.net/mg5amcnlo/+bug/1827424/comments/15
-      #cat makegrid.dat | ./bin/generate_events -n pilotrun 
-      ./bin/aMCatNLO makegrid.dat
-
-
-
-      #echo "nb_core = 1" >> ./$MGBASEDIRORIG/input/mg5_configuration.txt
-      echo "[DANIEL] workdir: $WORKDIR"
-      echo "nb_core = 1" >> $WORKDIR/MG5_aMC_v2_6_5/input/mg5_configuration.txt
-
+      cat makegrid.dat | ./bin/generate_events -n pilotrun
       # Run this step separately in debug mode since it gives so many problems
       if [ -e $CARDSDIR/${name}_reweight_card.dat ]; then
           echo "preparing reweighting step"
