@@ -486,7 +486,7 @@ make_gridpack () {
       
       #echo "shower=OFF" > makegrid.dat
       #echo "reweight=OFF" >> makegrid.dat
-      echo "done" >> makegrid.dat
+      #echo "done" >> makegrid.dat
       echo "launch -n pilotrun" >> makegrid.dat # [RS] https://bugs.launchpad.net/mg5amcnlo/+bug/1827424/comments/15
       if [ -e $CARDSDIR/${name}_customizecards.dat ]; then
               cat $CARDSDIR/${name}_customizecards.dat | sed '/^$/d;/^#.*$/d' >> makegrid.dat
