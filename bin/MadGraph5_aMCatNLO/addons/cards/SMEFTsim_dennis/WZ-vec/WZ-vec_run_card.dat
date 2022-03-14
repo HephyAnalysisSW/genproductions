@@ -19,7 +19,7 @@
 #*********************************************************************
 # Tag name for the run (one word)                                    *
 #*********************************************************************
-  ttZ01j-decay-vec_GP_gen     = run_tag ! name of the run 
+  WZ-vec_GP_gen     = run_tag ! name of the run 
 #*********************************************************************
 # Run to generate the grid pack                                      *
 #*********************************************************************
@@ -112,7 +112,6 @@ $DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf 
   0  = ptl       ! minimum pt for the charged leptons 
   0  = misset    ! minimum missing Et (sum of neutrino's momenta)
   0  = ptheavy   ! minimum pt for one heavy final state
- 1.0 = ptonium   ! minimum pt for the quarkonium states
  -1  = ptjmax    ! maximum pt for the jets
  -1  = ptbmax    ! maximum pt for the b
  -1  = ptamax    ! maximum pt for the photons
@@ -132,11 +131,10 @@ $DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf 
 #*********************************************************************
 # Maximum and minimum absolute rapidity (for max, -1 means no cut)   *
 #*********************************************************************
-   5  = etaj    ! max rap for the jets 
+  -1  = etaj    ! max rap for the jets 
   -1  = etab    ! max rap for the b
   -1  = etaa    ! max rap for the photons 
    3  = etal    ! max rap for the charged leptons 
- 0.6  = etaonium ! max rap for the quarkonium states
    0  = etajmin ! min rap for the jets
    0  = etabmin ! min rap for the b
    0  = etaamin ! min rap for the photons
@@ -209,7 +207,7 @@ $DEFAULT_PDF_MEMBERS = reweight_PDF     ! if pdlabel=lhapdf, this is the lhapdf 
 #*********************************************************************
 # Control the pt's of leptons sorted by pt                           *
 #*********************************************************************
- 10   = ptl1min ! minimum pt for the leading lepton in pt
+ 0   = ptl1min ! minimum pt for the leading lepton in pt
  0   = ptl2min ! minimum pt for the second lepton in pt
  0   = ptl3min ! minimum pt for the third lepton in pt
  0   = ptl4min ! minimum pt for the fourth lepton in pt

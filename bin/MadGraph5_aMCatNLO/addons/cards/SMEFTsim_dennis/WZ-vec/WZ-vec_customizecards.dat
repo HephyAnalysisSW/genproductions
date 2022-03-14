@@ -1,7 +1,5 @@
-set param_card MASS 6 172.5
-set param_card YUKAWA 6 172.5
-set param_card DECAY 6 auto
 set param_card smeft 2 0.e+00
+set param_card smeft 66 0.e+00
 set param_card smeft 121 0.e+00
 set param_card smeft 124 0.e+00
 set param_card smeft 126 0.e+00
