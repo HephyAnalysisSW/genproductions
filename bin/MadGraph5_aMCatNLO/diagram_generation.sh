@@ -66,7 +66,7 @@ fi
 cp $CARDSDIR/${name}_proc_card.dat ${name}_proc_card.dat
 echo "display diagrams ./" >> ${name}_proc_card.dat
 
-#${MGBASEDIRORIG}/bin/mg5_aMC ${name}_proc_card.dat
+${MGBASEDIRORIG}/bin/mg5_aMC ${name}_proc_card.dat
 
 PDFOUT="../${name}_diagrams"
 mkdir -p $PDFOUT
