@@ -5,7 +5,61 @@ change rwgt_dir rwgt
 
 launch --rwgt_name=dummy # Name of first argument seems to be rwgt_1. Add dummy to fix it.
 
-launch --rwgt_name=ctHRe_1p_ctHIm_0p
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 1.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_1p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 1.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_1p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 1.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_1p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 1.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_1p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 1.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_1p_ctHIm_0p
 set cQQ8 0.000000
 set cQQ1 0.000000
 set cQt1 0.000000
@@ -14,7 +68,7 @@ set cQt8 0.000000
 set ctHRe 1.000000
 set ctHIm 0.000000
 
-launch --rwgt_name=ctHRe_0p_ctHIm_1p
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_1p
 set cQQ8 0.000000
 set cQQ1 0.000000
 set cQt1 0.000000
@@ -23,7 +77,232 @@ set cQt8 0.000000
 set ctHRe 0.000000
 set ctHIm 1.000000
 
-launch --rwgt_name=ctHRe_2p_ctHIm_0p
+launch --rwgt_name=cQQ8_2p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 2.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_1p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 1.000000
+set cQQ1 1.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_0p_cQt1_1p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 1.000000
+set cQQ1 0.000000
+set cQt1 1.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_0p_cQt1_0p_ctt_1p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 1.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 1.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_1p_ctHRe_0p_ctHIm_0p
+set cQQ8 1.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 1.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_1p_ctHIm_0p
+set cQQ8 1.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 1.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_1p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_1p
+set cQQ8 1.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 1.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_2p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 2.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_1p_cQt1_1p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 1.000000
+set cQt1 1.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_1p_cQt1_0p_ctt_1p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 1.000000
+set cQt1 0.000000
+set ctt 1.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_1p_cQt1_0p_ctt_0p_cQt8_1p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 1.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 1.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_1p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_1p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 1.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 1.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_1p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_1p
+set cQQ8 0.000000
+set cQQ1 1.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 1.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_2p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 2.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_1p_ctt_1p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 1.000000
+set ctt 1.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_1p_ctt_0p_cQt8_1p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 1.000000
+set ctt 0.000000
+set cQt8 1.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_1p_ctt_0p_cQt8_0p_ctHRe_1p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 1.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 1.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_1p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_1p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 1.000000
+set ctt 0.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 1.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_2p_cQt8_0p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 2.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_1p_cQt8_1p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 1.000000
+set cQt8 1.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_1p_cQt8_0p_ctHRe_1p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 1.000000
+set cQt8 0.000000
+set ctHRe 1.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_1p_cQt8_0p_ctHRe_0p_ctHIm_1p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 1.000000
+set cQt8 0.000000
+set ctHRe 0.000000
+set ctHIm 1.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_2p_ctHRe_0p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 2.000000
+set ctHRe 0.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_1p_ctHRe_1p_ctHIm_0p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 1.000000
+set ctHRe 1.000000
+set ctHIm 0.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_1p_ctHRe_0p_ctHIm_1p
+set cQQ8 0.000000
+set cQQ1 0.000000
+set cQt1 0.000000
+set ctt 0.000000
+set cQt8 1.000000
+set ctHRe 0.000000
+set ctHIm 1.000000
+
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_2p_ctHIm_0p
 set cQQ8 0.000000
 set cQQ1 0.000000
 set cQt1 0.000000
@@ -32,7 +311,7 @@ set cQt8 0.000000
 set ctHRe 2.000000
 set ctHIm 0.000000
 
-launch --rwgt_name=ctHRe_1p_ctHIm_1p
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_1p_ctHIm_1p
 set cQQ8 0.000000
 set cQQ1 0.000000
 set cQt1 0.000000
@@ -41,7 +320,7 @@ set cQt8 0.000000
 set ctHRe 1.000000
 set ctHIm 1.000000
 
-launch --rwgt_name=ctHRe_0p_ctHIm_2p
+launch --rwgt_name=cQQ8_0p_cQQ1_0p_cQt1_0p_ctt_0p_cQt8_0p_ctHRe_0p_ctHIm_2p
 set cQQ8 0.000000
 set cQQ1 0.000000
 set cQt1 0.000000

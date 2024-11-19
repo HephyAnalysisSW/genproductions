@@ -12,6 +12,6 @@ define vp = vl vl~
 
 define p = p b b~
 define j = j b b~
-generate p p > t t~ H SMHLOOP=0 NPprop=0 NP=1, (t > l+ vl b NPprop=0 SMHLOOP=0 NP=0), (t~ > l- vl~ b~ NPprop=0 SMHLOOP=0 NP=0)  @0 
-#generate p p > t t~ H SMHLOOP=0 NPprop=0 NP=1, (t > w+ b NPprop=0 SMHLOOP=0 NP=0), (t~ > w- b~ NPprop=0 SMHLOOP=0 NP=0),(w+ > all all SMHLOOP=0 NPprop=0), (w- > all all SMHLOOP=0 NPprop=0)  @0 
+#generate p p > t t~ H SMHLOOP=0 NPprop=0 NP=1, (t > l+ vl b NPprop=0 SMHLOOP=0 NP=0), (t~ > l- vl~ b~ NPprop=0 SMHLOOP=0 NP=0)  @0 
+generate p p > t t~ H SMHLOOP=0 NPprop=0 NP=1, (t > w+ b NPprop=0 SMHLOOP=0 NP=0), (t~ > w- b~ NPprop=0 SMHLOOP=0 NP=0),(w+ > all all SMHLOOP=0 NPprop=0), (w- > all all SMHLOOP=0 NPprop=0)  @0 
 output TTH -nojpeg
