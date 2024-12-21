@@ -271,7 +271,7 @@
 # Store info for systematics studies                                 *
 # WARNING: Do not use for interference type of computation           *
 #*********************************************************************
-                 False = use_syst               
+                 F    = use_syst               
 #
 #**************************************
 # Parameter of the systematics study
